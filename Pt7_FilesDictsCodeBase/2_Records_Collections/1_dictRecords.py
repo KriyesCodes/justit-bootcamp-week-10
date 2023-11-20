@@ -17,21 +17,20 @@ Attributes are sometimes referred to as fields.
 # create a dictionary 
 # syntax: dictionary = {"key":"some value"}
 dict1 = {"fName":"James Smith", "age":23,"interests":"coding","gamer":True, "fName":"kriyes mahendra"}
-print(dict1)
+# print(dict1)
 
 "Using dictionary methods"
 # D.items() -> a set-like object providing a view on D's items
 dItems = dict1.items()
-print(dItems)
-
+# print(dItems)
 
 # D.keys() -> a set-like object providing a view on D's keys
 dKeys = dict1.keys()
-print(dKeys)
+# print(dKeys)
 
 # D.values() -> an object providing a view on D's values
 dValues = dict1.values()
-print(dValues)
+# print(dValues)
 
 "To Do: Task 1: Refer to the example code above to create your own dictionary with key value pairs and explain the differences between the items(), keys() and values() dictionary methods"
 
@@ -80,3 +79,38 @@ print(dValues)
 
 # print(dict1)
 # print(user)
+
+print("dictionary with keys but no values")
+userDetails1 = {"fname": "", "address": "", "interest":"", "age":""}
+# udate dictioanry keys wih values
+# userDetails1["fname"] = "Some Name"
+# print(userDetails1)
+ 
+# # # Use key to add values to dictionary
+ 
+# userDetails1["fname"] = input("Enter your full name: ")
+# userDetails1["address"] = input("Enter your address: ")
+# userDetails1["interest"] = input("Enter your interests: ")
+# userDetails1["age"] = int(input("Enter age: "))
+# print(userDetails1)
+
+# create a dictionary with no keys and no values
+# print("dictionary with no keys and no values")
+# userDetails2 = {}
+# dict1Key = input("Enter a  key:")
+# userDetails2[dict1Key] = input(f"Enter value for {dict1Key}: ")
+
+userDetails3 = {}
+numOfKeys = 3
+
+for dictItems in range(numOfKeys):
+  aKey = input("Enter key: ")
+  aValue = input(f"Enter value for key {aKey}:")
+  userDetails3[aKey]=aValue
+
+print(userDetails3)
+
+userDetails = {"fullName": "", "address": "", "interest":"", "age":""}
+
+for key in userDetails:
+  userDetails[key] = input
