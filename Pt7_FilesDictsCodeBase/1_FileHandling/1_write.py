@@ -30,7 +30,7 @@ The text file must be saved in the same location as your Python file for the pro
 
 "1_FileHandling_ReadWrite/myfile.txt","w"
 "Syntax :  varName = openMethod('pathtofolder/parthtofile/fileName.txt', 'w')"
-filePath1 = open('Pt7_FilesDictsCodeBase/1_FileHandling/fil1.txt', 'w') # folder/folder/filename
+filePath1 = open('Pt7_FilesDictsCodeBase/1_FileHandling/file1.txt', 'w') # folder/folder/filename
 # write to file
 filePath1.write("Python Programming")
 # close the filepath and file/ releasing the resource

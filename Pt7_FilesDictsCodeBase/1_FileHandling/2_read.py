@@ -6,8 +6,17 @@
 # 3. Unlike the write mode, no argument is required within the parenthesis of the read mode.
 
 "Syntax :  varName = openMethod('pathtofolder/parthtofile//fileName.txt', 'w')"
-filePath1 = open('pathtofolder/parthtofile/fileName.txt', 'w') # folder/folder/filename
-filePath1.write("Python Programming")
+filePath1 = open('Pt7_FilesDictsCodeBase/1_FileHandling/file1.txt', 'r') # folder/folder/filename
+
+"method 1"
+# print(filePath1.read())
+"method 2"
+# readContents = filePath1.read()
+# readContents = filePath1.readline()
+# readContents = filePath1.readlines()
+readContents = filePath1.readable()
+print(readContents)
+
 filePath1.close()
 
 
