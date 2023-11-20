@@ -4,9 +4,9 @@
 " automatically setup and teardown resources"
 
 "Syntax :  with openMethod('pathtofolder/parthtofile/fileName.txt', 'w') as varName:"
-with open('pathtofolder/parthtofile/fileName.txt',"r+") as filePath1:
-    contents ="\nYourA\ntext\ngoes\nhere\nin\nnewlines"
-    filePath1.write(contents) #write to file 
+with open("Pt7_FilesDictsCodeBase/1_FileHandling/myFile.txt", 'a') as filePath1:
+    contents ="\nYour\ntext\ngoes\nhere\nin\nnewlines"
+    filePath1.write(contents) #write to file
 
 
 "To Do: Task 1: Task 1: Refer to the example code above to use the context manager to:"
