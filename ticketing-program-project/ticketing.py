@@ -10,3 +10,8 @@
 #       Print a car parking pass (if requested)
 #       Use data validation techniques to avoid runtime errors through incorrect data entry
 #       Thank the customer for their purchase
+
+def printWelcomeMessage():
+  print("""Welcome to Jumanji!\r
+Home of ferocious beasts and mysterious artifacts\r
+Whether you run through a maze or fight a jaguar, remember to have fun!\n""")
