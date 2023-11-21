@@ -15,3 +15,13 @@ def printWelcomeMessage():
   print("""Welcome to Jumanji!\r
 Home of ferocious beasts and mysterious artifacts\r
 Whether you run through a maze or fight a jaguar, remember to have fun!\n""")
+
+def printTicketPrices():
+  print ("{:<20} {:>10}".format('Ticket','Price'))
+  print("-------------------------------")
+  print ("{:<20} {:>10}".format('Adult','£20'))
+  print ("{:<20} {:>10}".format('Child','£12'))
+  print ("{:<20} {:>10}".format('Senior Citizen','£11'))
+
+printWelcomeMessage()
+printTicketPrices()
