@@ -9,7 +9,7 @@ or set to ERROR to log only CRITICAL and ERROR.
 While if configured to CRITICAL, only critical errors will be logged'''
 
 # logging.basicConfig(filename = "myFilelog.log", level = logging.ERROR)  # from error and above will be logged to file
-logging.basicConfig(filename = r"folderpath/filename", level = logging.DEBUG) # to see all error logs
+logging.basicConfig(filename = r"Pt8_Exceptions_CollectionsCodeBase\1_Exceptions/file1.log", level = logging.DEBUG) # to see all error logs
 #different logging methods and severity
 logging.critical("Critical")
 logging.error("Error")
@@ -17,6 +17,9 @@ logging.warning("Warning")
 logging.info("Info")
 logging.debug("Debug")
 
+logging.warning("Warning")
+logging.info("Info")
+logging.debug("Debug")
 
 '''
 The default log messages is warning, therefore, root logger will log all messages which are warnings and above. 
