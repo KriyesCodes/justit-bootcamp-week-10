@@ -20,4 +20,4 @@ VALUES(?,?,?)""", (songTitle, songArtist, songGenre))
   print(f"{songTitle} inserted into songs table")
 
 if __name__ == "__main__":
-  insert__songs()
+  insert_songs()
