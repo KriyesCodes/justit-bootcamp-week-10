@@ -1,6 +1,6 @@
 from connect import *
 
-def insert__songs():
+def insert_songs():
   # SongId is auto increment field so data input is not required
   # ask user for input for Title, Artist, Genre
   songTitle = input("Enter song Title: ")
